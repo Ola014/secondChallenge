@@ -1,0 +1,20 @@
+#wrap {
+    margin: auto;
+    width: 50%;
+   background-color: rgb(19, 185, 226);
+    padding: 10px;
+}
+ul{
+    list-style:none;
+}
+
+li {
+    margin: auto;
+    text-align: center;
+}
+li::first-letter{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 2em;
+
+}
